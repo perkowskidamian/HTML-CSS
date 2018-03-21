@@ -1,0 +1,213 @@
+body
+{
+	background-color: #363535 ;
+	color: white;
+	margin: 0 !important;
+	font-size: 20px;
+	}
+
+#wrapper
+{
+	width: 100%;
+}
+
+#header
+{
+	width: 100%;
+	padding: 40px 0;
+}
+	
+#logo
+{
+	width: 600px;
+	font-size: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+
+#logo > img
+{
+width: 150px;
+
+}
+
+#nav
+{
+		width: 100%;
+		padding: 10px 0;
+		background-color: #BD0606;
+		text-align: center;
+		border-top: 1px solid #BD0606;
+		border-bottom: 1px solid #BD0606;
+		clear:both;
+		
+
+}
+	
+#content
+{
+width: 1000px;
+margin-left: auto;
+margin-right: auto;
+padding-top: 10px;
+
+}
+	
+#socials
+{
+	width: 100%;
+	text-align: center;
+	background-color: red;
+}
+
+#socialdivs
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+	
+#footer
+{
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 20px 0;
+		text-align: center;
+		background-color: #222222;
+}
+	
+.fb
+{
+	width: 250px;
+	height: 155px;
+	float: left;
+	 text-align: center;
+}
+.fb:hover
+{
+background-color:  #4668b3;
+}
+.yt
+{
+	width: 250px;
+	height: 155px;
+ text-align: center;
+	float: left;
+}
+
+.yt:hover
+{
+background-color:  #d94348;
+}
+
+.tw
+{
+	width: 250px;
+	height: 155px;
+	float: left;
+	 text-align: center;
+}
+.tw:hover
+{
+background-color:  #4668b3;
+}
+
+.gplus
+{
+	width: 250px;
+	height: 155px;
+	float: left;
+	 text-align: center;
+}
+.gplus:hover
+{
+background-color:  #d95333;
+}
+
+	
+.sticky
+{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+	
+ol
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 18px;
+	height: 35px;
+	line-height: 200%;
+	display: inline-block;
+}	
+
+ol a
+{
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+	
+ol > li
+{
+	float:left;
+	width: 150px;
+	height: 40px;
+	border-right: 1px dashed #3B3030;
+}	
+
+ol > li:first-child
+{
+
+	border-left: 1px dashed #3B3030;
+}	
+
+ol > li:hover
+{
+	background-color: #cf6969;
+	
+}
+	
+ol > li:hover > a
+{
+	color: #451717;
+}
+
+ol > li > ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 40 px;
+	display: none;
+}
+
+ol > li > ul > li
+{
+	background-color: #cf6969;
+	position: relative;
+	z-index: 100;
+	border-top: 1px dashed #751b1b;
+}
+
+ol > li:hover >ul
+{
+	display: block;
+}
+
+ol > li > ul > li:hover
+{
+	background-color: #c34f4f;
+}
+
+ol > li > ul > li:hover > a
+{
+	color: #451717;
+}

@@ -1,0 +1,9 @@
+
+.icon-user { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe800;&nbsp;'); }
+.icon-twitter { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf099;&nbsp;'); }
+.icon-gplus-squared { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0d4;&nbsp;'); }
+.icon-paste { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0ea;&nbsp;'); }
+.icon-desktop { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf108;&nbsp;'); }
+.icon-youtube-squared { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf166;&nbsp;'); }
+.icon-envelope-open-o { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf2b7;&nbsp;'); }
+.icon-facebook-squared { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf308;&nbsp;'); }
